@@ -1,10 +1,10 @@
+import { motion } from "framer-motion";
 import React from "react";
 import Tilt from "react-tilt";
-import { motion } from "framer-motion";
 
-import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
@@ -47,11 +47,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a software engineer based in Gurugram, India. I'm currently a
+        Highschool Freshman working in machine learning and full stack
+        development using python and the MERN stack. I'm also a hacktivist and
+        have participated in many hackathons around the globe. As a product
+        developer, my primary goal is to design and build projects that are not
+        only functional and user-friendly but also visually captivating.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

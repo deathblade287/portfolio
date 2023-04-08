@@ -1,11 +1,11 @@
-import { useState, useRef } from "react";
-import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { motion } from "framer-motion";
+import { useRef, useState } from "react";
 
-import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
+import { EarthCanvas } from "./canvas";
 
 const Contact = () => {
   const formRef = useRef();
@@ -27,16 +27,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_r0jcplm",
-        "template_1t76uxq",
+        "service_gucmk4a",
+        "template_48mod98",
         {
           form_name: form.name,
-          to_name: "Liron",
+          to_name: "Aviral",
           from_email: form.email,
-          to_email: "contact@mail.com",
+          to_email: "aviral.dhingra.2008@gmail.com",
           message: form.message,
         },
-        "Jqq9AvwIuSjoMiA5c"
+        "eZGWlvtPHHYXrECAs"
       )
       .then(
         () => {
@@ -68,7 +68,6 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-
         <form
           ref={formRef}
           onSubmit={handleSubmit}

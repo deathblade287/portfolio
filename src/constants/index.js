@@ -1,28 +1,25 @@
 import {
-  mobile,
   backend,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
   css,
+  docker,
+  figma,
+  git,
+  html,
+  javascript,
+  mobile,
+  mongodb,
+  mse,
+  nodejs,
+  pendulum,
   reactjs,
   redux,
+  shop287,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  techOptimum,
   threejs,
+  typescript,
+  web,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +39,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "ML Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Ethical Hacker",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Python Developer",
     icon: creator,
   },
 ];
@@ -116,55 +113,26 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Director Of Education",
+    company_name: "Tech Optimum",
+    icon: techOptimum,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Leading and vetting new hires in the education team",
+      "Overlooking the progress of ongoing courses",
+      "Helping the tech team publish courses",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Course Intrusctor",
+    company_name: "Tech Optimum",
+    icon: techOptimum,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "November 2022 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed 4-5 hour long programming courses",
+      "You can find them on: courses.techoptimum.org",
     ],
   },
 ];
@@ -198,16 +166,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Shop 287",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Shop 287 is a modern eCommerce project for reliable data storage, authentication, and server-less functions. All features and UI components were made from scratch as part of the learning process.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -215,13 +183,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: shop287,
+    source_code_link: "https://github.com/AviralDhingra/shop287",
   },
   {
-    name: "Job IT",
+    name: "MSE Efficiency Calibrator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Calculating and calibrating the efficiency of training in gradient descent by computing the product of the MSE and the number of iterations.",
     tags: [
       {
         name: "react",
@@ -236,13 +204,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: mse,
+    source_code_link:
+      "https://github.com/AviralDhingra/MSE-Efficiency-Calibrator",
   },
   {
-    name: "Trip Guide",
+    name: "Pendulum",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Helping reduce user's temptation for instant gratification by presenting math puzzles on procrastination-prone websites. This was made since outright blocking the site has no effect on most users as they go back to old habits if it becomes too hard.",
     tags: [
       {
         name: "nextjs",
@@ -257,8 +226,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: pendulum,
+    source_code_link: "https://github.com/AviralDhingra/ClockHacks_Pendulum",
   },
 ];
 

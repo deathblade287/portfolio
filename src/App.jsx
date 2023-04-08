@@ -4,12 +4,11 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
-  Tech,
-  Works,
   StarsCanvas,
+  // Tech,
+  Works,
 } from "./components";
 
 const App = () => {
@@ -22,14 +21,25 @@ const App = () => {
         </div>
         <About />
         <Experience />
-        <Tech />
+        {/* <Tech /> */}
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
         </div>
       </div>
+      <footer className="flex flex-col items-center justify-center w-full h-24 text-white bg-primary">
+        <p>
+          Find me on{" "}
+          <button
+            className="text-blue-500 underline underline-offset-2"
+            onClick={() => window.open("https://bio.link/aviraldhingra")}
+          >
+            bio.link
+          </button>
+        </p>
+      </footer>
     </BrowserRouter>
   );
 };
