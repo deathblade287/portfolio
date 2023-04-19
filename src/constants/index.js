@@ -1,12 +1,15 @@
 import {
+  SIGF,
   backend,
   creator,
   css,
   docker,
   figma,
   git,
+  github,
   html,
   javascript,
+  linkedin,
   mobile,
   mongodb,
   mse,
@@ -18,6 +21,7 @@ import {
   tailwind,
   techOptimum,
   threejs,
+  twitter,
   typescript,
   web,
 } from "../assets";
@@ -34,6 +38,24 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+];
+
+const socialLinks = [
+  {
+    id: "LinkedIn",
+    icon: github,
+    link: "https://www.linkedin.com/in/aviral-dhingra-328392212/",
+  },
+  {
+    id: "Github",
+    icon: linkedin,
+    link: "https://github.com/AviralDhingra",
+  },
+  {
+    id: "Twitter",
+    icon: twitter,
+    link: "https://twitter.com/dhingra_aviral",
   },
 ];
 
@@ -112,6 +134,17 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Flask Developer",
+    company_name: "Student Internet Governance Forum",
+    icon: SIGF,
+    iconBg: "#FFFFFF",
+    date: "April 2023 - Present",
+    points: [
+      "Coding the official SIGF website",
+      "Fullstack development using Flask and Tailwind CSS ",
+    ],
+  },
   {
     title: "Director Of Education",
     company_name: "Tech Optimum",
@@ -231,4 +264,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  socialLinks,
+};

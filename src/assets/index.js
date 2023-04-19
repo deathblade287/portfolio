@@ -1,7 +1,11 @@
 import backend from "./backend.png";
 import close from "./close.svg";
 import creator from "./creator.png";
+
 import github from "./github.png";
+import linkedin from "./linkedin.png";
+import twitter from "./twitter.png";
+
 import logo from "./logo.png";
 import menu from "./menu.svg";
 import mobile from "./mobile.png";
@@ -21,6 +25,7 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
 
+import SIGF from "./company/SIGF.jpeg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -42,6 +47,8 @@ export {
   mobile,
   web,
   github,
+  linkedin,
+  twitter,
   menu,
   close,
   css,
@@ -62,6 +69,7 @@ export {
   starbucks,
   techOptimum,
   tesla,
+  SIGF,
   mse,
   pendulum,
   shop287,
