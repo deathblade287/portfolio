@@ -11,6 +11,8 @@ import {
   Works,
 } from "./components";
 
+import { socialLinks } from "./constants";
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -39,6 +41,21 @@ const App = () => {
             bio.link
           </button>
         </p>
+        <br />
+        {/* Socials */}
+        <ul className="list-none hidden sm:flex flex-row gap-5">
+          {socialLinks.map((social) => (
+            <li
+              key={social.id}
+              className={
+                "hover:text-white text-[18px] font-medium cursor-pointer text-secondary"
+              }
+              onClick={() => window.open(social.link)}
+            >
+              <img src={social.icon} width="25" height="25" />
+            </li>
+          ))}
+        </ul>
       </footer>
     </BrowserRouter>
   );

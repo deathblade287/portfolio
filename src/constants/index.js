@@ -43,14 +43,14 @@ export const navLinks = [
 
 const socialLinks = [
   {
-    id: "LinkedIn",
+    id: "Github",
     icon: github,
-    link: "https://www.linkedin.com/in/aviral-dhingra-328392212/",
+    link: "https://github.com/AviralDhingra",
   },
   {
-    id: "Github",
+    id: "LinkedIn",
     icon: linkedin,
-    link: "https://github.com/AviralDhingra",
+    link: "https://www.linkedin.com/in/aviral-dhingra-328392212/",
   },
   {
     id: "Twitter",

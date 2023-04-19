@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { close, menu } from "../assets";
+import { navLinks } from "../constants";
 
-import { navLinks, socialLinks } from "../constants";
 import { styles } from "../styles";
 
 const Navbar = () => {
@@ -47,7 +48,7 @@ const Navbar = () => {
             <span className="sm:block hidden"> | Developer Portfolio</span>
           </p>
         </Link>
-        {/* Pages & Other Websites */}
+
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
@@ -84,23 +85,9 @@ const Navbar = () => {
           >
             <a>Resume</a>
           </li>
-          {/* Socials */}
-          <ul className="list-none hidden sm:flex flex-row gap-5">
-            {socialLinks.map((social) => (
-              <li
-                key={social.id}
-                className={
-                  "hover:text-white text-[18px] font-medium cursor-pointer text-secondary"
-                }
-                onClick={() => window.open(social.link)}
-              >
-                <img src={social.icon} width="25" height="25" />
-              </li>
-            ))}
-          </ul>
         </ul>
 
-        {/* <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
             alt="menu"
@@ -128,9 +115,33 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li
+                key="5"
+                className={
+                  "font-poppins font-medium cursor-pointer text-[16px] hover text-secondary hover:text-white"
+                }
+                onClick={() =>
+                  window.open("https://aviral270608.wixsite.com/aviral")
+                }
+              >
+                <a>Blog</a>
+              </li>
+              <li
+                key="5"
+                className={
+                  "font-poppins font-medium cursor-pointer text-[16px] hover text-secondary hover:text-white"
+                }
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/15Z8Ox4w0SilVq9p3JJvzTyCdhQSmVHY7/view?usp=sharing"
+                  )
+                }
+              >
+                <a>Resume</a>
+              </li>
             </ul>
           </div>
-        </div> */}
+        </div>
       </div>
     </nav>
   );
