@@ -79,7 +79,7 @@ const Navbar = () => {
             }
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/15Z8Ox4w0SilVq9p3JJvzTyCdhQSmVHY7/view?usp=sharing"
+                "https://drive.google.com/file/d/1QmHYL_ROfzkjv5UwsNnsjHLErK4ifH_9/view?usp=sharing"
               )
             }
           >
@@ -133,7 +133,7 @@ const Navbar = () => {
                 }
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/15Z8Ox4w0SilVq9p3JJvzTyCdhQSmVHY7/view?usp=sharing"
+                    "https://drive.google.com/file/d/1QmHYL_ROfzkjv5UwsNnsjHLErK4ifH_9/view?usp=sharing"
                   )
                 }
               >
