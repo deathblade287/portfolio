@@ -28,6 +28,7 @@ import typescript from "./tech/typescript.png";
 import SIGF from "./company/SIGF.jpeg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
+import sigmaforge from "./company/sigmaforge.png";
 import starbucks from "./company/starbucks.png";
 import techOptimum from "./company/techOptimum.png";
 import tesla from "./company/tesla.png";
@@ -36,44 +37,44 @@ import tesla from "./company/tesla.png";
 // import jobit from "./jobit.png";
 // import tripguide from "./tripguide.png";
 
+import eventease from "./eventease.png";
 import mse from "./mse.png";
 import pendulum from "./pendulum.png";
 import shop287 from "./shop287.jpeg";
 
 export {
-  logo,
+  SIGF,
   backend,
-  creator,
-  mobile,
-  web,
-  github,
-  linkedin,
-  twitter,
-  menu,
   close,
+  creator,
   css,
   docker,
+  eventease,
   figma,
   git,
+  github,
   html,
   javascript,
+  linkedin,
+  logo,
+  menu,
+  meta,
+  mobile,
   mongodb,
+  mse,
   nodejs,
+  pendulum,
   reactjs,
   redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
+  shop287,
   shopify,
+  sigmaforge,
   starbucks,
+  tailwind,
   techOptimum,
   tesla,
-  SIGF,
-  mse,
-  pendulum,
-  shop287,
-  // carrent,
-  // jobit,
-  // tripguide,
+  threejs,
+  twitter,
+  typescript,
+  web,
 };

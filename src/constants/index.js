@@ -4,6 +4,7 @@ import {
   creator,
   css,
   docker,
+  eventease,
   figma,
   git,
   github,
@@ -18,6 +19,7 @@ import {
   reactjs,
   redux,
   shop287,
+  sigmaforge,
   tailwind,
   techOptimum,
   threejs,
@@ -135,14 +137,22 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Founder & CEO",
+    company_name: "Sigma Forge",
+    icon: sigmaforge,
+    iconBg: "#000000",
+    date: "June 2023 - Present",
+    points: ["Indie Hacking", "Building a portfolio of SaaS products"],
+  },
+  {
     title: "Flask Developer",
     company_name: "Student Internet Governance Forum",
     icon: SIGF,
     iconBg: "#FFFFFF",
-    date: "April 2023 - Present",
+    date: "April 2023 - June 2023",
     points: [
-      "Coding the official SIGF website",
-      "Fullstack development using Flask and Tailwind CSS ",
+      "Maintaing the official SIGF website",
+      "Fullstack development using Flask and Tailwind CSS",
     ],
   },
   {
@@ -150,7 +160,7 @@ const experiences = [
     company_name: "Tech Optimum",
     icon: techOptimum,
     iconBg: "#383E56",
-    date: "March 2023 - Present",
+    date: "March 2023 - June 2023",
     points: [
       "Leading and vetting new hires in the education team",
       "Overlooking the progress of ongoing courses",
@@ -225,15 +235,15 @@ const projects = [
       "Calculating and calibrating the efficiency of training in gradient descent by computing the product of the MSE and the number of iterations.",
     tags: [
       {
-        name: "react",
+        name: "scikit-learn",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "matplotlib",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "pandas",
         color: "pink-text-gradient",
       },
     ],
@@ -241,34 +251,98 @@ const projects = [
     source_code_link:
       "https://github.com/AviralDhingra/MSE-Efficiency-Calibrator",
   },
+
   {
-    name: "Pendulum",
+    name: "Objectivize",
     description:
       "Helping reduce user's temptation for instant gratification by presenting math puzzles on procrastination-prone websites. This was made since outright blocking the site has no effect on most users as they go back to old habits if it becomes too hard.",
     tags: [
       {
-        name: "nextjs",
+        name: "manifest v3",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "restapi",
         color: "pink-text-gradient",
       },
     ],
     image: pendulum,
     source_code_link: "https://github.com/AviralDhingra/ClockHacks_Pendulum",
   },
+  {
+    name: "GPTREND",
+    description:
+      "Helping reduce user's temptation for instant gratification by presenting math puzzles on procrastination-prone websites. This was made since outright blocking the site has no effect on most users as they go back to old habits if it becomes too hard.",
+    tags: [
+      {
+        name: "manifest v3",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pendulum,
+    source_code_link: "https://github.com/AviralDhingra/ClockHacks_Pendulum",
+  },
+  {
+    name: "Pendulum",
+    description:
+      "Helping reduce user's temptation for instant gratification by presenting math puzzles on procrastination-prone websites. This was made since outright blocking the site has no effect on most users as they go back to old habits if it becomes too hard.",
+    tags: [
+      {
+        name: "manifest v3",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pendulum,
+    source_code_link: "https://github.com/AviralDhingra/ClockHacks_Pendulum",
+  },
+  {
+    name: "EventEase",
+    description:
+      "EventEase is a digital booking system that uses QR codes to lock events in neighbourhood shops. You can sign up as a user interested in saving time or as a shop owner that is tired of customer churn due to daunting queues.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: eventease,
+    source_code_link: "https://github.com/AviralDhingra/vaa-hacksters",
+  },
 ];
 
 export {
-  services,
-  technologies,
   experiences,
-  testimonials,
   projects,
+  services,
   socialLinks,
+  technologies,
+  testimonials,
 };
