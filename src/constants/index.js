@@ -1,4 +1,6 @@
 import {
+  Chronos,
+  Objectivize,
   SIGF,
   backend,
   creator,
@@ -18,14 +20,14 @@ import {
   pendulum,
   reactjs,
   redux,
+  scriptscan,
   shop287,
-  sigmaforge,
   tailwind,
   techOptimum,
   threejs,
   twitter,
   typescript,
-  web,
+  web
 } from "../assets";
 
 export const navLinks = [
@@ -138,11 +140,11 @@ const technologies = [
 const experiences = [
   {
     title: "Founder & CEO",
-    company_name: "Sigma Forge",
-    icon: sigmaforge,
-    iconBg: "#000000",
+    company_name: "Script Scan",
+    icon: scriptscan,
+    iconBg: "#383E56",
     date: "June 2023 - Present",
-    points: ["Indie Hacking", "Building a portfolio of SaaS products"],
+    points: ["Indie Hacking", "Building an AI-based chrome extension for developers"],
   },
   {
     title: "Flask Developer",
@@ -255,28 +257,28 @@ const projects = [
   {
     name: "Objectivize",
     description:
-      "Helping reduce user's temptation for instant gratification by presenting math puzzles on procrastination-prone websites. This was made since outright blocking the site has no effect on most users as they go back to old habits if it becomes too hard.",
+      "An autonomous system that utilizes objective facts to deduce conclusions. Powered by AI, Objectivize efficiently processes vast amounts of information to provide logical and well-supported conclusions. ",
     tags: [
       {
-        name: "manifest v3",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "javascript",
+        name: "selenium",
         color: "green-text-gradient",
       },
       {
-        name: "restapi",
+        name: "openai",
         color: "pink-text-gradient",
       },
     ],
-    image: pendulum,
+    image: Objectivize,
     source_code_link: "https://github.com/AviralDhingra/ClockHacks_Pendulum",
   },
   {
-    name: "GPTREND",
+    name: "Chronos",
     description:
-      "Helping reduce user's temptation for instant gratification by presenting math puzzles on procrastination-prone websites. This was made since outright blocking the site has no effect on most users as they go back to old habits if it becomes too hard.",
+      "Chatbot for Holistic Real-time Organization and Navigation of Structured data: Analyzing data on your terms. Ask your data questions in english and get insightful replies and automated reports. No more wasting time on BI tools.",
     tags: [
       {
         name: "manifest v3",
@@ -291,7 +293,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: pendulum,
+    image: Chronos,
     source_code_link: "https://github.com/AviralDhingra/ClockHacks_Pendulum",
   },
   {
@@ -344,5 +346,6 @@ export {
   services,
   socialLinks,
   technologies,
-  testimonials,
+  testimonials
 };
+

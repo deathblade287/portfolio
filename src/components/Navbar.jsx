@@ -72,19 +72,7 @@ const Navbar = () => {
           >
             <a>Blog</a>
           </li>
-          <li
-            key={"4"}
-            className={
-              "hover:text-white text-[18px] font-medium cursor-pointer text-secondary"
-            }
-            onClick={() =>
-              window.open(
-                "https://drive.google.com/file/d/1QmHYL_ROfzkjv5UwsNnsjHLErK4ifH_9/view?usp=sharing"
-              )
-            }
-          >
-            <a>Resume</a>
-          </li>
+          
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -125,19 +113,6 @@ const Navbar = () => {
                 }
               >
                 <a>Blog</a>
-              </li>
-              <li
-                key="5"
-                className={
-                  "font-poppins font-medium cursor-pointer text-[16px] hover text-secondary hover:text-white"
-                }
-                onClick={() =>
-                  window.open(
-                    "https://drive.google.com/file/d/1QmHYL_ROfzkjv5UwsNnsjHLErK4ifH_9/view?usp=sharing"
-                  )
-                }
-              >
-                <a>Resume</a>
               </li>
             </ul>
           </div>
