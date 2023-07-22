@@ -66,13 +66,10 @@ const Navbar = () => {
             className={
               "hover:text-white text-[18px] font-medium cursor-pointer text-secondary"
             }
-            onClick={() =>
-              window.open("https://aviral270608.wixsite.com/aviral")
-            }
+            onClick={() => window.open("https://blog.aviraldhingra.com/")}
           >
             <a>Blog</a>
           </li>
-          
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -108,9 +105,7 @@ const Navbar = () => {
                 className={
                   "font-poppins font-medium cursor-pointer text-[16px] hover text-secondary hover:text-white"
                 }
-                onClick={() =>
-                  window.open("https://aviral270608.wixsite.com/aviral")
-                }
+                onClick={() => window.open("https://blog.aviraldhingra.com/")}
               >
                 <a>Blog</a>
               </li>
