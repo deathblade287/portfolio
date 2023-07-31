@@ -39,13 +39,16 @@ import tesla from "./company/tesla.png";
 
 import Chronos from "./Chronos.png";
 import Objectivize from "./Objectivize.png";
+import vulcan from "./company/vulcan_cortex.png";
 import eventease from "./eventease.png";
 import mse from "./mse.png";
 import pendulum from "./pendulum.png";
 import shop287 from "./shop287.jpeg";
 
 export {
-  Chronos, Objectivize, SIGF,
+  Chronos,
+  Objectivize,
+  SIGF,
   backend,
   close,
   creator,
@@ -67,14 +70,17 @@ export {
   nodejs,
   pendulum,
   reactjs,
-  redux, scriptscan, shop287,
-  shopify, starbucks,
+  redux,
+  scriptscan,
+  shop287,
+  shopify,
+  starbucks,
   tailwind,
   techOptimum,
   tesla,
   threejs,
   twitter,
   typescript,
-  web
+  vulcan,
+  web,
 };
-

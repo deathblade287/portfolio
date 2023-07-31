@@ -27,7 +27,8 @@ import {
   threejs,
   twitter,
   typescript,
-  web
+  vulcan,
+  web,
 } from "../assets";
 
 export const navLinks = [
@@ -140,11 +141,22 @@ const technologies = [
 const experiences = [
   {
     title: "Founder & CEO",
+    company_name: "Vulcan Cortex",
+    icon: vulcan,
+    iconBg: "#FFFFFF",
+    date: "July 2023 - Present",
+    points: ["Quant Development", "Building the trading bot of the future"],
+  },
+  {
+    title: "Founder & CEO",
     company_name: "Script Scan",
     icon: scriptscan,
     iconBg: "#383E56",
     date: "June 2023 - Present",
-    points: ["Indie Hacking", "Building an AI-based chrome extension for developers"],
+    points: [
+      "Indie Hacking",
+      "Building an AI-based chrome extension for developers",
+    ],
   },
   {
     title: "Flask Developer",
@@ -346,6 +358,5 @@ export {
   services,
   socialLinks,
   technologies,
-  testimonials
+  testimonials,
 };
-
