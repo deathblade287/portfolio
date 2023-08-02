@@ -182,7 +182,7 @@ const experiences = [
     ],
   },
   {
-    title: "Course Intrusctor",
+    title: "Course Instructor",
     company_name: "Tech Optimum",
     icon: techOptimum,
     iconBg: "#383E56",
