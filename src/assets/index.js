@@ -41,7 +41,9 @@ import Chronos from "./Chronos.png";
 import Objectivize from "./Objectivize.png";
 import vulcan from "./company/vulcan_cortex.png";
 import eventease from "./eventease.png";
+import hyprland from "./hyprland.png";
 import mse from "./mse.png";
+import netflix_login from "./netflix_login.jpg";
 import pendulum from "./pendulum.png";
 import shop287 from "./shop287.jpeg";
 
@@ -58,16 +60,14 @@ export {
   figma,
   git,
   github,
-  html,
-  javascript,
+  html, hyprland, javascript,
   linkedin,
   logo,
   menu,
   meta,
   mobile,
   mongodb,
-  mse,
-  nodejs,
+  mse, netflix_login, nodejs,
   pendulum,
   reactjs,
   redux,
@@ -82,5 +82,6 @@ export {
   twitter,
   typescript,
   vulcan,
-  web,
+  web
 };
+

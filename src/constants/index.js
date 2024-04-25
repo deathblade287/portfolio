@@ -1,26 +1,25 @@
 import {
-  Chronos,
   Objectivize,
   SIGF,
   backend,
   creator,
   css,
   docker,
-  eventease,
   figma,
   git,
   github,
   html,
+  hyprland,
   javascript,
   linkedin,
   mobile,
   mongodb,
   mse,
+  netflix_login,
   nodejs,
   pendulum,
   reactjs,
   redux,
-  scriptscan,
   shop287,
   tailwind,
   techOptimum,
@@ -28,7 +27,7 @@ import {
   twitter,
   typescript,
   vulcan,
-  web,
+  web
 } from "../assets";
 
 export const navLinks = [
@@ -70,16 +69,16 @@ const services = [
     icon: web,
   },
   {
-    title: "Web Developer",
-    icon: mobile,
+    title: "Linux Dev",
+    icon: creator,
   },
   {
     title: "Ethical Hacker",
     icon: backend,
   },
   {
-    title: "Python Developer",
-    icon: creator,
+    title: "Web Dev",
+    icon: mobile,
   },
 ];
 
@@ -147,17 +146,17 @@ const experiences = [
     date: "July 2023 - Present",
     points: ["Quant Development", "Building the trading bot of the future"],
   },
-  {
-    title: "Founder & CEO",
-    company_name: "Script Scan",
-    icon: scriptscan,
-    iconBg: "#383E56",
-    date: "June 2023 - Present",
-    points: [
-      "Indie Hacking",
-      "Building an AI-based chrome extension for developers",
-    ],
-  },
+  // {
+  //   title: "Founder & CEO",
+  //   company_name: "Script Scan",
+  //   icon: scriptscan,
+  //   iconBg: "#383E56",
+  //   date: "June 2023 - Present",
+  //   points: [
+  //     "Indie Hacking",
+  //     "Building an AI-based chrome extension for developers",
+  //   ],
+  // },
   {
     title: "Flask Developer",
     company_name: "Student Internet Governance Forum",
@@ -195,30 +194,6 @@ const experiences = [
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
 ];
 
 const projects = [
@@ -285,33 +260,33 @@ const projects = [
       },
     ],
     image: Objectivize,
-    source_code_link: "https://github.com/AviralDhingra/ClockHacks_Pendulum",
+    source_code_link: "https://github.com/deathblade287/Objectivize",
   },
   {
-    name: "Chronos",
+    name: "Dotfiles",
     description:
-      "Chatbot for Holistic Real-time Organization and Navigation of Structured data: Analyzing data on your terms. Ask your data questions in english and get insightful replies and automated reports. No more wasting time on BI tools.",
+      "My Arch + Fedora Dotfiles for the entire system including kernel parameters, gtk themes, i3 and hyprland configs, etc.",
     tags: [
       {
-        name: "manifest v3",
+        name: "linux",
         color: "blue-text-gradient",
       },
       {
-        name: "javascript",
+        name: "kernel",
         color: "green-text-gradient",
       },
       {
-        name: "restapi",
+        name: "neovim",
         color: "pink-text-gradient",
       },
     ],
-    image: Chronos,
-    source_code_link: "https://github.com/AviralDhingra/ClockHacks_Pendulum",
+    image: hyprland,
+    source_code_link: "https://github.com/deathblade287/dotfiles",
   },
   {
     name: "Pendulum",
     description:
-      "Helping reduce user's temptation for instant gratification by presenting math puzzles on procrastination-prone websites. This was made since outright blocking the site has no effect on most users as they go back to old habits if it becomes too hard.",
+      "Helping reduce user's temptation for instant gratification by presenting math puzzles on procrastination-prone websites.",
     tags: [
       {
         name: "manifest v3",
@@ -330,25 +305,21 @@ const projects = [
     source_code_link: "https://github.com/AviralDhingra/ClockHacks_Pendulum",
   },
   {
-    name: "EventEase",
+    name: "Netflix Phishing",
     description:
-      "EventEase is a digital booking system that uses QR codes to lock events in neighbourhood shops. You can sign up as a user interested in saving time or as a shop owner that is tired of customer churn due to daunting queues.",
+      "A clone of the netflix login page that is functional and saves the passwords. As an educative example of spear phishing attacks",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
       {
         name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "social engineering",
         color: "pink-text-gradient",
       },
     ],
-    image: eventease,
-    source_code_link: "https://github.com/AviralDhingra/vaa-hacksters",
+    image: netflix_login,
+    source_code_link: "https://github.com/deathblade287/Netflix-Phishing",
   },
 ];
 
@@ -358,5 +329,6 @@ export {
   services,
   socialLinks,
   technologies,
-  testimonials,
+  testimonials
 };
+

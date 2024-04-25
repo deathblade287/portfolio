@@ -21,6 +21,10 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I Develop ML Models, <br className="sm:block hidden" /> Automation
             Software & Web Apps
+            <br className="sm:block hidden" />
+            <br className="sm:block hidden" />
+
+            btw i use arch
           </p>
         </div>
       </div>
