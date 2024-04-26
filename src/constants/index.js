@@ -49,7 +49,7 @@ const socialLinks = [
   {
     id: "Github",
     icon: github,
-    link: "https://github.com/AviralDhingra",
+    link: "https://github.com/deathblade287",
   },
   {
     id: "LinkedIn",
@@ -59,7 +59,7 @@ const socialLinks = [
   {
     id: "Twitter",
     icon: twitter,
-    link: "https://twitter.com/dhingra_aviral",
+    link: "https://twitter.com/deathblade287",
   },
 ];
 

@@ -5,6 +5,9 @@ import { navLinks } from "../constants";
 
 import { styles } from "../styles";
 
+import { socialLinks } from "../constants";
+
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -45,7 +48,7 @@ const Navbar = () => {
           {/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Aviral Dhingra &nbsp;
-            <span className="sm:block hidden"> | Developer Portfolio</span>
+            {/* <span className="sm:block hidden"> | Developer Portfolio</span> */}
           </p>
         </Link>
 
@@ -66,10 +69,35 @@ const Navbar = () => {
             className={
               "hover:text-white text-[18px] font-medium cursor-pointer text-secondary"
             }
+            onClick={() => window.open("https://drive.google.com/file/d/1dA_p4O-gc7M1HgKLpogwVz-413cWV9_H/view")}
+          >
+            <a>Resume</a>
+          </li>
+          <li
+            key={"3"}
+            className={
+              "hover:text-white text-[18px] font-medium cursor-pointer text-secondary"
+            }
             onClick={() => window.open("https://blog.aviraldhingra.com/")}
           >
             <a>Blog</a>
-          </li>
+          </li>    
+        </ul>
+
+
+
+        <ul className="list-none hidden sm:flex flex-row gap-5">
+          {socialLinks.map((social) => (
+            <li
+              key={social.id}
+              className={
+                "hover:text-white text-[18px] font-medium cursor-pointer text-secondary"
+              }
+              onClick={() => window.open(social.link)}
+            >
+              <img src={social.icon} width="25" height="25" />
+            </li>
+          ))}
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">

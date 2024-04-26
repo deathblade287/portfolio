@@ -47,12 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a software engineer based in Gurugram, India. I'm currently a
-        Highschool Freshman working in machine learning and full stack
-        development using python and the MERN stack. I'm also a hacktivist and
-        have participated in many hackathons around the globe. As a product
-        developer, my primary goal is to design and build projects that are not
-        only functional and user-friendly but also visually captivating.
+        I'm a software engineer based in Gurugram, India. I'm currently a highschool junior programming for fun, attending hackathons and contributing to open source projects. I love linux and am on the journey to becoming a kernel developer. On the side, I read and write about philosophy for other inquisitive minds.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
