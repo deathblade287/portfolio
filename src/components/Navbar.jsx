@@ -7,7 +7,6 @@ import { styles } from "../styles";
 
 import { socialLinks } from "../constants";
 
-
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -69,9 +68,13 @@ const Navbar = () => {
             className={
               "hover:text-white text-[18px] font-medium cursor-pointer text-secondary"
             }
-            onClick={() => window.open("https://drive.google.com/file/d/1dA_p4O-gc7M1HgKLpogwVz-413cWV9_H/view")}
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1dELu0usWoZGVkUe6Xffc20wdNTeVee-Q/view?usp=sharing"
+              )
+            }
           >
-            <a>Resume</a>
+            <a>Résumé</a>
           </li>
           <li
             key={"3"}
@@ -81,10 +84,8 @@ const Navbar = () => {
             onClick={() => window.open("https://blog.aviraldhingra.com/")}
           >
             <a>Blog</a>
-          </li>    
+          </li>
         </ul>
-
-
 
         <ul className="list-none hidden sm:flex flex-row gap-5">
           {socialLinks.map((social) => (

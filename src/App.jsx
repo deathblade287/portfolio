@@ -2,16 +2,7 @@
 
 import { BrowserRouter } from "react-router-dom";
 
-import {
-  About,
-  Contact,
-  Experience,
-  Hero,
-  Navbar,
-  StarsCanvas,
-  Works,
-} from "./components";
-
+import { Contact, Hero, Navbar, StarsCanvas, Works } from "./components";
 
 const App = () => {
   return (
@@ -22,7 +13,7 @@ const App = () => {
           <Hero />
         </div>
         {/* <About /> */}
-        <Experience />
+        {/* <Experience /> */}
         {/* <Tech /> */}
         <Works />
         {/* <Feedbacks /> */}
@@ -31,9 +22,6 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
-      <footer className="flex flex-col items-center justify-center w-full h-24 text-white bg-primary">
-        <p>Made With ❤️ By Aviral Dhingra</p>
-      </footer>
     </BrowserRouter>
   );
 };

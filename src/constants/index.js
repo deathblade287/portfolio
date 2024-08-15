@@ -24,10 +24,9 @@ import {
   tailwind,
   techOptimum,
   threejs,
-  twitter,
   typescript,
   vulcan,
-  web
+  web,
 } from "../assets";
 
 export const navLinks = [
@@ -56,11 +55,11 @@ const socialLinks = [
     icon: linkedin,
     link: "https://www.linkedin.com/in/aviral-dhingra-328392212/",
   },
-  {
-    id: "Twitter",
-    icon: twitter,
-    link: "https://twitter.com/deathblade287",
-  },
+  // {
+  //   id: "twitter",
+  //   icon: twitter,
+  //   link: "",
+  // },
 ];
 
 const services = [
@@ -193,8 +192,7 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-];
+const testimonials = [];
 
 const projects = [
   {
@@ -219,9 +217,9 @@ const projects = [
     source_code_link: "https://github.com/AviralDhingra/shop287",
   },
   {
-    name: "MSE Efficiency Calibrator",
+    name: "Gradient Descent Efficiency Index",
     description:
-      "Calculating and calibrating the efficiency of training in gradient descent by computing the product of the MSE and the number of iterations.",
+      "A research paper on quantizing the effeciency of each iteration in gradient descent. It accounts for both the relative change in error and the stability of the loss function.",
     tags: [
       {
         name: "scikit-learn",
@@ -329,6 +327,5 @@ export {
   services,
   socialLinks,
   technologies,
-  testimonials
+  testimonials,
 };
-
