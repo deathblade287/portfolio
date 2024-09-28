@@ -1,5 +1,13 @@
 import { styles } from "../styles";
 
+/**
+ * Renders the hero section of the application.
+ *
+ * The hero section is the main introductory section of the website, displaying the user's name and a brief description.
+ * It is centered on the page and uses styles from the `styles` module to format the text.
+ *
+ * @returns {JSX.Element} The rendered hero section
+ */
 const Hero = () => {
   return (
     <section className="flex items-center justify-center w-full h-screen">
