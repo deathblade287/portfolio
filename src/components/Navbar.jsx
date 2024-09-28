@@ -70,7 +70,7 @@ const Navbar = () => {
             }
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1dELu0usWoZGVkUe6Xffc20wdNTeVee-Q/view?usp=sharing"
+                "https://drive.google.com/file/d/1DlYpO3Zk5iWYdYJ56bRsM1JBqWDMVb7W/view?usp=sharing"
               )
             }
           >
